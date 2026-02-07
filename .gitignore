@@ -1,0 +1,41 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+wheels/
+*.egg-info
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Models
+models/*.pkl
+models/*.joblib
+
+# Logs
+*.log
+docs/presentation_script.md
