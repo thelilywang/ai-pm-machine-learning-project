@@ -14,7 +14,7 @@ Machine learning project demonstrating predictive modeling and feature interpret
 
 **PM / Product Value:** Accurate short-term energy forecasts support operational planning, dispatch scheduling, maintenance indicators, and resource optimization. This project also demonstrates the value of machine learning from a Product Manager perspective, showing how predictive insights can improve operational decisions and resource efficiency.
 
-**Dataset:** 9,568 hourly environmental records (`CCPP_data.csv`).
+**Dataset:** 9,568 hourly environmental records from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/combined+cycle+power+plant).
 
 **Target & Unit:**
 - **PE (Net Hourly Electrical Energy Output)** in **MW (MegaWatt)**
@@ -66,7 +66,6 @@ Machine learning project demonstrating predictive modeling and feature interpret
 ### Repository Structure
 ```
 ai-pm-machine-learning-project/
-├── CCPP_data.csv
 ├── notebooks/
 │   ├── power_plant_prediction.ipynb        # Chinese (learning/notes)
 │   └── power_plant_prediction_en.ipynb     # English (submission)
@@ -90,6 +89,8 @@ ai-pm-machine-learning-project/
 ### How to Run
 
 Requires **Python 3.12** and **uv** for dependency management.
+
+**Note:** Download the [CCPP dataset](https://archive.ics.uci.edu/ml/datasets/combined+cycle+power+plant) and save as `CCPP_data.csv` in the project root before running.
 
 ```bash
 # Install dependencies
@@ -122,7 +123,7 @@ Open:
 
 **PM 觀點**：更準確的短期發電量預測可支援規劃與營運決策（例如：調度規劃、維護指標、資源配置），本專案同時展示了從產品經理角度應用機器學習的價值，說明如何透過預測洞察支援營運決策與資源優化。
 
-**資料集**：9,568 筆每小時資料，資料來源：CCPP_data.csv。
+**資料集**：9,568 筆每小時資料，來自 [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/combined+cycle+power+plant) 的 CCPP 資料集（不包含在 repo 中）。
 
 **目標與單位**：
 - **PE (Net Hourly Electrical Energy Output)** 單位為 **MW（MegaWatt，百萬瓦特）**。
@@ -175,7 +176,6 @@ Open:
 
 ```
 ai-pm-machine-learning-project/
-├── CCPP_data.csv
 ├── notebooks/
 │   ├── power_plant_prediction.ipynb        # 中文（學習/註解）
 │   └── power_plant_prediction_en.ipynb     # 英文（提交）
@@ -199,6 +199,8 @@ ai-pm-machine-learning-project/
 ### 如何執行
 
 本專案使用 **Python 3.12** 與 **uv** 管理依賴。
+
+**注意**：執行前請先下載 [CCPP 資料集](https://archive.ics.uci.edu/ml/datasets/combined+cycle+power+plant)，並儲存為專案根目錄的 `CCPP_data.csv`。
 
 ```bash
 uv sync

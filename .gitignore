@@ -32,6 +32,10 @@ env/
 # macOS
 .DS_Store
 
+# Data files
+*.csv
+CCPP_data.csv
+
 # Models
 models/*.pkl
 models/*.joblib
