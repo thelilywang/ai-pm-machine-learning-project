@@ -6,7 +6,7 @@
 
 ## English
 
-Machine learning project demonstrating predictive modeling and feature interpretation for **Combined Cycle Power Plant (CCPP) energy output forecasting**, developed as part of the **Duke AI Product Management** course. The project compares **Linear Regression** and **Random Forest** models for real-world hourly energy prediction.
+Machine learning project demonstrating predictive modeling and feature interpretation for **Combined Cycle Power Plant (CCPP) energy output forecasting**, developed as part of the **[Duke AI Product Management](https://www.coursera.org/specializations/ai-product-management-duke)** course. The project compares **Linear Regression** and **Random Forest** models for real-world hourly energy prediction.
 
 ### Project Summary
 
@@ -106,7 +106,7 @@ Open:
 
 ## 中文
 
-本專案為 **Duke AI Product Management** 課程的 AI 導向機器學習專案，比較 **Linear Regression** 與 **Random Forest**，用於預測真實情境下複合循環發電廠的**每小時淨電力輸出**。
+本專案為 **[Duke AI Product Management](https://www.coursera.org/specializations/ai-product-management-duke)** 課程的 AI 導向機器學習專案，比較 **Linear Regression** 與 **Random Forest**，用於預測真實情境下複合循環發電廠的**每小時淨電力輸出**。
 
 ### 專案摘要
 
