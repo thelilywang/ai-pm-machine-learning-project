@@ -39,3 +39,5 @@ models/*.joblib
 # Logs
 *.log
 docs/presentation_script.md
+docs/model_analysis_backup.md
+docs/model_analysis_en_backup.md

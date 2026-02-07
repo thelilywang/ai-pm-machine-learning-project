@@ -71,13 +71,21 @@ ai-pm-machine-learning-project/
 │   ├── power_plant_prediction.ipynb        # Chinese (learning/notes)
 │   └── power_plant_prediction_en.ipynb     # English (submission)
 ├── docs/
-│   ├── model_analysis.md                   # Methodology (Chinese)
-│   └── model_analysis_en.md                # Methodology (English)
+│   ├── project_details.md                  # Project overview (bilingual)
+│   └── model_analysis.md                   # Methodology (bilingual)
 ├── main.py
 ├── pyproject.toml
 ├── uv.lock
 └── README.md
 ```
+
+### Documentation
+
+- **[project_details.md](docs/project_details.md)**: Comprehensive project overview with detailed methodology, evaluation results, and visualization placeholders (bilingual)
+- **Notebooks**: Interactive analysis and model implementation
+  - [power_plant_prediction_en.ipynb](notebooks/power_plant_prediction_en.ipynb) - English version
+  - [power_plant_prediction.ipynb](notebooks/power_plant_prediction.ipynb) - Chinese version
+- **[model_analysis.md](docs/model_analysis.md)**: Detailed technical methodology (bilingual)
 
 ### How to Run
 
@@ -172,13 +180,21 @@ ai-pm-machine-learning-project/
 │   ├── power_plant_prediction.ipynb        # 中文（學習/註解）
 │   └── power_plant_prediction_en.ipynb     # 英文（提交）
 ├── docs/
-│   ├── model_analysis.md                   # 方法論（中文）
-│   └── model_analysis_en.md                # 方法論（英文）
+│   ├── project_details.md                  # 專案概覽（雙語）
+│   └── model_analysis.md                   # 方法論（雙語）
 ├── main.py
 ├── pyproject.toml
 ├── uv.lock
 └── README.md
 ```
+
+### 文件說明
+
+- **[project_details.md](docs/project_details.md)**：完整專案概覽，含詳細方法論、評估結果與視覺化占位符（雙語）
+- **Notebooks**：互動式分析與模型實作
+  - [power_plant_prediction_en.ipynb](notebooks/power_plant_prediction_en.ipynb) - 英文
+  - [power_plant_prediction.ipynb](notebooks/power_plant_prediction.ipynb) - 中文
+- **[model_analysis.md](docs/model_analysis.md)**：詳細技術方法論（雙語）
 
 ### 如何執行
 
