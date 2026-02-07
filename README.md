@@ -6,7 +6,7 @@
 
 ## English
 
-Machine learning project demonstrating predictive modeling and feature interpretation for **Combined Cycle Power Plant (CCPP) energy output forecasting**, developed as part of the **[Duke AI Product Management](https://www.coursera.org/specializations/ai-product-management-duke)** course. The project compares **Linear Regression** and **Random Forest** models for real-world hourly energy prediction.
+Machine learning project for **Combined Cycle Power Plant (CCPP) energy output forecasting**, developed as part of the **[Duke AI Product Management](https://www.coursera.org/specializations/ai-product-management-duke)** specialization. Compares **Linear Regression** and **Random Forest** models to predict hourly energy output from environmental sensor data.
 
 ### Project Summary
 
@@ -46,9 +46,10 @@ Machine learning project demonstrating predictive modeling and feature interpret
 
 **Decision:** Random Forest selected as final model.  
 - Test MAE reduced 35.28% (3.60 → 2.33 MW)  
-- CV MAE (2.48) close to test MAE, indicating low risk of overfitting  
+- Test R² improved +3.61% (0.9301 → 0.9637)  
+- CV MAE (2.48) close to test MAE (2.33), indicating low risk of overfitting  
 
-**PM Insight:** ~35% MAE improvement enhances reliability of energy forecasting, supporting better operational decisions and reducing inefficiencies.
+**PM Insight:** ~35% MAE improvement enhances reliability of energy forecasting, supporting better operational decisions and reducing inefficiencies. The model achieves ~0.5% relative error in the output range.
 
 ---
 
@@ -90,7 +91,9 @@ ai-pm-machine-learning-project/
 
 Requires **Python 3.12** and **uv** for dependency management.
 
-**Note:** Download the [CCPP dataset](https://archive.ics.uci.edu/ml/datasets/combined+cycle+power+plant) and save as `CCPP_data.csv` in the project root before running.
+**Prerequisites:**
+1. Download the [CCPP dataset](https://archive.ics.uci.edu/ml/datasets/combined+cycle+power+plant) and save as `CCPP_data.csv` in the project root
+2. Install dependencies using `uv`
 
 ```bash
 # Install dependencies
@@ -103,9 +106,9 @@ source .venv/bin/activate
 jupyter notebook
 ```
 
-Open:
-- `notebooks/power_plant_prediction_en.ipynb` (English)
-- `notebooks/power_plant_prediction.ipynb` (Chinese)
+**Recommended notebooks to open:**
+- `notebooks/power_plant_prediction_en.ipynb` (English - main submission)
+- `notebooks/power_plant_prediction.ipynb` (Chinese - with learning notes)
 
 ### Notes
 
@@ -115,7 +118,7 @@ Open:
 
 ## 中文
 
-本專案為 **[Duke AI Product Management](https://www.coursera.org/specializations/ai-product-management-duke)** 課程的 AI 導向機器學習專案，比較 **Linear Regression** 與 **Random Forest**，用於預測真實情境下複合循環發電廠的**每小時淨電力輸出**。
+本專案為 **[Duke AI Product Management](https://www.coursera.org/specializations/ai-product-management-duke)** 專業課程的機器學習專案，比較 **Linear Regression** 與 **Random Forest** 模型，用於預測複合循環發電廠的每小時電力輸出。
 
 ### 專案摘要
 
@@ -160,9 +163,10 @@ Open:
 
 **結論（模型選擇）**：Random Forest 作為最終模型。
 - 測試集 MAE 由 3.60 → 2.33 MW（降低 35.28%）
+- 測試集 R² 提升 +3.61%（0.9301 → 0.9637）
 - CV MAE (2.48) 與測試集 MAE (2.33) 接近，未見明顯過擬合
 
-**PM 見解**：35% 的 MAE 改善提高了預測可靠性，有助於更好的營運決策，降低資源浪費。
+**PM 見解**：35% 的 MAE 改善提高了預測可靠性，有助於更好的營運決策，降低資源浪費。模型達到輸出範圍 ~0.5% 的相對誤差。
 
 ### 特徵說明
 
@@ -200,7 +204,9 @@ ai-pm-machine-learning-project/
 
 本專案使用 **Python 3.12** 與 **uv** 管理依賴。
 
-**注意**：執行前請先下載 [CCPP 資料集](https://archive.ics.uci.edu/ml/datasets/combined+cycle+power+plant)，並儲存為專案根目錄的 `CCPP_data.csv`。
+**前置條件**：
+1. 下載 [CCPP 資料集](https://archive.ics.uci.edu/ml/datasets/combined+cycle+power+plant)，並儲存為專案根目錄的 `CCPP_data.csv`
+2. 使用 `uv` 安裝依賴套件
 
 ```bash
 uv sync
@@ -208,9 +214,9 @@ source .venv/bin/activate
 jupyter notebook
 ```
 
-建議開啟：
-- `notebooks/power_plant_prediction_en.ipynb`（英文）
-- `notebooks/power_plant_prediction.ipynb`（中文）
+**建議開啟的 notebooks**：
+- `notebooks/power_plant_prediction_en.ipynb`（英文 - 主要提交版本）
+- `notebooks/power_plant_prediction.ipynb`（中文 - 含學習註解）
 
 ### 備註
 
